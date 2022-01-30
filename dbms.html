@@ -1,0 +1,59 @@
+<Html>  
+    <head>   
+    <title>  
+    Registration Page  
+    </title>  
+    </head>  
+    <body bgcolor="Lightskyblue">  
+    <br>  
+    <br>  
+    <form action="insert1.php" method="POST">  
+      
+    <label> Firstname </label>         
+    <input type="text" name="firstname" size="15" required/> <br> <br>  
+    <label> Middlename: </label>     
+    <input type="text" name="middlename" size="15" required/> <br> <br>  
+    <label> Lastname: </label>         
+    <input type="text" name="lastname" size="15" required/> <br> <br>  
+      
+    <label>   
+    Course :  
+    </label>   
+    <select name="course" required>  
+    <option selected hidden value="">Course</option>  
+    <option value="BCA">BCA</option>  
+    <option value="BBA">BBA</option>  
+    <option value="B.Tech">B.Tech</option>  
+    <option value="MBA">MBA</option>  
+    <option value="MCA">MCA</option>  
+    <option value="M.Tech">M.Tech</option>  
+    </select>  
+      
+    <br>  
+    <br>  
+    <label>   
+    Gender :  
+    </label><br>  
+    <input type="radio" name="gender" value="m" required/> Male <br>  
+    <input type="radio" name="gender" value="f" required/> Female <br>  
+    <input type="radio" name="gender" value="o" required/> Other  
+    <br>  
+    <br>  
+      
+    <label>   
+    Phone :  
+    </label>  
+    <input type="text" name="country code"  value="+91" size="3"/>   
+    <input type="text" name="phone" size="10"required/> <br> <br>  
+    <br> <br>  
+    Email:  
+    <input type="email" id="email" name="email" required/> <br>    
+    <br> <br>  
+    Password:  
+    <input type="Password" id="pass" name="pass" required> <br>   
+    <br> <br>  
+ 
+    <input type="submit" value="Submit" name="Submit"/>  
+    </form>  
+    </body>  
+    </html>  
